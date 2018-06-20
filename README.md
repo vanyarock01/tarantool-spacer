@@ -1,3 +1,5 @@
+# THIS IS AN OLD UNMAINTAINED VERSION OF SPACER. PLEASE USE [igorcoding/tarantool-spacer](https://github.com/igorcoding/tarantool-spacer).
+
 # tarantool-spacer
 Spacer for Tarantool. For managing spaces easily.
 
