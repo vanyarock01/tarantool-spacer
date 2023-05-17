@@ -55,7 +55,8 @@ local spacer = {}
 local F = {}
 local T = {}
 
-local tt_version do
+local tt_version = {}
+do
 	local maj,min,mic,bld = _TARANTOOL:match("(%d+)%.(%d+)%.(%d+)-(%d+)")
 	if not maj then
 		maj,min,mic,bld = _TARANTOOL:match("(%d+)%.(%d+)%.(%d+)-([%w%d]+%-%d+)")
